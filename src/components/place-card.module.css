@@ -30,6 +30,12 @@
   max-width: 250px;
   margin-bottom: var(--dl-space-space-doubleunit);
 }
+.navlink {
+  display: contents;
+}
+.component {
+  text-decoration: none;
+}
 @media(max-width: 767px) {
   .container {
     width: 200px;

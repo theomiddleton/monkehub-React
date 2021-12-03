@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -16,7 +17,12 @@ const PlaceCard = (props) => {
       <div className={styles['container1']}>
         <span className={styles['text']}>{props.city}</span>
         <span className={styles['text1']}>{props.description}</span>
-        <OutlineButton button1="Discover place"></OutlineButton>
+        <Link to="/likedmonke" className={styles['navlink']}>
+          <OutlineButton
+            button1="Like monke"
+            className={styles['component']}
+          ></OutlineButton>
+        </Link>
       </div>
     </div>
   )
