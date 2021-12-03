@@ -43,23 +43,22 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.text02 {
-  color: #ffffff;
-  margin-right: var(--dl-space-space-doubleunit);
-}
-.text03 {
-  color: #ffffff;
-  margin-right: var(--dl-space-space-doubleunit);
-}
-.text04 {
-  color: #ffffff;
-  margin-right: var(--dl-space-space-doubleunit);
-}
-.text05 {
-  color: #ffffff;
-  margin-right: var(--dl-space-space-doubleunit);
-}
 .navlink {
+  color: #ffffff;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.navlink1 {
+  color: #ffffff;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.navlink2 {
+  color: #ffffff;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.navlink3 {
   display: contents;
 }
 .component {
@@ -88,7 +87,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.text07 {
+.text03 {
   color: #ffffff;
 }
 .Subheading {
@@ -121,12 +120,12 @@
   border-style: outset;
   border-width: 10px;
 }
-.text11 {
+.text07 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 500;
 }
-.text12 {
+.text08 {
   color: var(--dl-color-gray-black);
   font-style: normal;
   font-family: Montserrat;
@@ -151,10 +150,11 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.text14 {
+.text10 {
   color: #f79817;
 }
 .Links-container1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -162,8 +162,7 @@
 }
 .container1 {
   display: flex;
-  align-items: flex-start;
-  margin-left: 100px;
+  align-items: center;
   flex-direction: column;
 }
 .link {
@@ -184,39 +183,8 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.text15 {
+.text11 {
   padding-bottom: var(--dl-space-space-halfunit);
-}
-.Icons-container {
-  width: 100px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.link3 {
-  display: contents;
-}
-.icon3 {
-  fill: var(--dl-color-gray-white);
-  width: 24px;
-  height: 24px;
-}
-.link4 {
-  display: contents;
-}
-.icon5 {
-  fill: var(--dl-color-gray-white);
-  width: 24px;
-  height: 24px;
-}
-.link5 {
-  display: contents;
-}
-.icon7 {
-  fill: var(--dl-color-gray-white);
-  width: 24px;
-  height: 24px;
 }
 @media(max-width: 991px) {
   .Hero {
@@ -237,7 +205,7 @@
   .Content-container {
     align-items: center;
   }
-  .text06 {
+  .text02 {
     font-size: 2.5rem;
   }
   .Main {
@@ -254,7 +222,7 @@
   }
 }
 @media(max-width: 479px) {
-  .text06 {
+  .text02 {
     font-size: 2rem;
     text-align: center;
   }

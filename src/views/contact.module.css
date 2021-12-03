@@ -53,10 +53,6 @@
   margin-right: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.text02 {
-  color: #ffffff;
-  margin-right: var(--dl-space-space-doubleunit);
-}
 .navlink2 {
   color: #ffffff;
   margin-right: var(--dl-space-space-doubleunit);
@@ -91,7 +87,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.text04 {
+.text03 {
   color: #ffffff;
 }
 .Subheading {
@@ -120,15 +116,18 @@
   font-weight: 500;
   line-height: 1.55;
 }
-.text08 {
+.text07 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 500;
 }
-.text10 {
+.text09 {
   font-style: normal;
   font-family: Montserrat;
   font-weight: 500;
+}
+.text11 {
+  text-decoration: underline;
 }
 .text12 {
   text-decoration: underline;
@@ -137,9 +136,6 @@
   text-decoration: underline;
 }
 .text14 {
-  text-decoration: underline;
-}
-.text15 {
   text-decoration: underline;
 }
 .Footer {
@@ -160,10 +156,11 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.text18 {
+.text17 {
   color: #f79817;
 }
 .Links-container1 {
+  width: 177px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -193,39 +190,8 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.text19 {
+.text18 {
   padding-bottom: var(--dl-space-space-halfunit);
-}
-.Icons-container {
-  width: 100px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.link2 {
-  display: contents;
-}
-.icon3 {
-  fill: var(--dl-color-gray-white);
-  width: 24px;
-  height: 24px;
-}
-.link3 {
-  display: contents;
-}
-.icon5 {
-  fill: var(--dl-color-gray-white);
-  width: 24px;
-  height: 24px;
-}
-.link4 {
-  display: contents;
-}
-.icon7 {
-  fill: var(--dl-color-gray-white);
-  width: 24px;
-  height: 24px;
 }
 @media(max-width: 991px) {
   .Hero {
@@ -246,7 +212,7 @@
   .Content-container {
     align-items: center;
   }
-  .text03 {
+  .text02 {
     font-size: 2.5rem;
   }
   .Main {
@@ -263,7 +229,7 @@
   }
 }
 @media(max-width: 479px) {
-  .text03 {
+  .text02 {
     font-size: 2rem;
     text-align: center;
   }
