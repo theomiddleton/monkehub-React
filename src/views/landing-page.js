@@ -74,7 +74,7 @@ const LandingPage = () => {
         <video
           src="/playground_assets/monkey%20spinning%20meme%20%5Bwith%20hey%20ya!%20music%5D.mp4"
           loop="true"
-          poster="https://play.teleporthq.io/static/svg/videoposter.svg"
+          poster="/playground_assets/hqdefault-500h.jpg"
           controls="true"
           className={styles['video']}
         ></video>
