@@ -14,6 +14,10 @@ const LandingPage = () => {
       <Helmet>
         <title>monkehub</title>
         <meta property="og:title" content="monkehub" />
+        <meta
+          property="og:description"
+          content="i like monke, you like monke. i make website for monke. :)"
+        />
       </Helmet>
       <div className={styles['Top-container']}>
         <nav className={styles['Navbar']}>

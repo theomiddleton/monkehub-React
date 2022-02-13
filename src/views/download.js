@@ -10,6 +10,10 @@ const Download = () => {
       <Helmet>
         <title>download - monkehub</title>
         <meta property="og:title" content="download - monkehub" />
+        <meta
+          property="og:description"
+          content="i like monke, you like monke. i make website for monke. :)"
+        />
       </Helmet>
     </div>
   )

@@ -10,6 +10,10 @@ const Source = () => {
       <Helmet>
         <title>Source - monkehub</title>
         <meta property="og:title" content="Source - monkehub" />
+        <meta
+          property="og:description"
+          content="i like monke, you like monke. i make website for monke. :)"
+        />
       </Helmet>
     </div>
   )
