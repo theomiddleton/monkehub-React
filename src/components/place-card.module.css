@@ -36,6 +36,9 @@
 .component {
   text-decoration: none;
 }
+.rootClassName {
+  align-self: flex-end;
+}
 @media(max-width: 767px) {
   .container {
     width: 200px;

@@ -22,12 +22,26 @@
   --dl-space-space-tripleunit: 3em;
   --dl-color-primary-huborange: #f79817ff;
 }
+.teleport-show {
+  display: flex !important;
+}
+.list-item {
+  display: list-item;
+}
 .button {
   font-size: 14px;
   font-family: Poppins;
   font-weight: 600;
   text-transform: none;
   text-decoration: none;
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
 }
 .textarea {
   color: var(--dl-color-gray-black);

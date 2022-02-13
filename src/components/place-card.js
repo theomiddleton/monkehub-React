@@ -8,7 +8,7 @@ import styles from './place-card.module.css'
 
 const PlaceCard = (props) => {
   return (
-    <div className={styles['container']}>
+    <div className={` ${styles['container']} ${styles[props.rootClassName]} `}>
       <img
         alt={props.image_alt}
         src={props.image}
@@ -35,6 +35,7 @@ PlaceCard.defaultProps = {
   city: 'City Name',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
+  rootClassName: '',
 }
 
 PlaceCard.propTypes = {
@@ -42,6 +43,7 @@ PlaceCard.propTypes = {
   image_alt: PropTypes.string,
   city: PropTypes.string,
   description: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default PlaceCard

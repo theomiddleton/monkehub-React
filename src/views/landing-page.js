@@ -59,21 +59,61 @@ const LandingPage = () => {
               One of the places for monke content
             </h2>
             <span className={styles['text05']}>
-              <span>we love monke</span>
+              <span>yeah i updated this shit</span>
             </span>
             <a href="#main-section" className={styles['link2']}>
               <SolidButton
                 button="Explore Monke"
-                className={styles['component1']}
+                className={styles['component01']}
               ></SolidButton>
             </a>
           </div>
         </div>
       </div>
       <div id="main-section" className={styles['Main']}>
+        <video
+          src="/playground_assets/monkey%20spinning%20meme%20%5Bwith%20hey%20ya!%20music%5D.mp4"
+          loop="true"
+          poster="https://play.teleporthq.io/static/svg/videoposter.svg"
+          controls="true"
+          className={styles['video']}
+        ></video>
         <h1 className={styles['text07']}>Some of our favorite monke</h1>
-        <span className={styles['text08']}>:)</span>
+        <span className={styles['text08']}>:) + new ones</span>
         <div className={styles['Cards-container']}>
+          <PlaceCard
+            city="angy monke"
+            image="https://images.unsplash.com/photo-1615038552039-e1b271f14ec8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fG1vbmtleXxlbnwwfHx8fDE2NDQ3ODUxODg&amp;ixlib=rb-1.2.1&amp;w=300"
+            description="but why he be angy Photo by Dimitry Zub on Unsplash"
+          ></PlaceCard>
+          <PlaceCard
+            city="moustache monke"
+            image="https://images.unsplash.com/photo-1570288685280-7802a8f8c4fa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE1fHxtb25rZXl8ZW58MHx8fHwxNjQ0Nzg1MTg4&amp;ixlib=rb-1.2.1&amp;w=1000"
+            description="kinda drippy. Photo by Chris Curry on Unsplash"
+          ></PlaceCard>
+          <PlaceCard
+            city="shy monke"
+            image="https://images.unsplash.com/photo-1603349798520-c949d4735084?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxtb25rZXl8ZW58MHx8fHwxNjQ0Nzg1MTg4&amp;ixlib=rb-1.2.1&amp;h=900"
+            description="or is he sad??? i hope not~ Goyal on Unsplash"
+            rootClassName="rootClassName"
+          ></PlaceCard>
+          <PlaceCard
+            city="silly monke 2"
+            image="https://images.unsplash.com/photo-1516636052745-e142aecffd0c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIxfHxtb25rZXl8ZW58MHx8fHwxNjQ0Nzg1MTg4&amp;ixlib=rb-1.2.1&amp;h=900"
+            description="he got his tongue out too. Photo by Tj Kolesnik on Unsplash"
+          ></PlaceCard>
+          <PlaceCard
+            city="fresh af monke"
+            image="https://images.unsplash.com/photo-1629838027652-d260d41e8b43?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDM3fHxtb25rZXl8ZW58MHx8fHwxNjQ0Nzg1NTEx&amp;ixlib=rb-1.2.1&amp;h=900"
+            description="the swag on this dude. Photo by Y S on Unsplash"
+          ></PlaceCard>
+          <PlaceCard
+            city="moped monke"
+            image="https://images.unsplash.com/photo-1575429959593-e28bfcf0efc9?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ3fHxtb25rZXl8ZW58MHx8fHwxNjQ0Nzg1NTEx&amp;ixlib=rb-1.2.1&amp;h=900"
+            description="have they got their licence????? Photo by Joe Ciciarelli on Unsplash"
+          ></PlaceCard>
+        </div>
+        <div className={styles['Cards-container1']}>
           <PlaceCard
             city="Hot spring monke"
             image="https://images.unsplash.com/photo-1578948610588-ffe24448f5ed?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1174&amp;q=80"

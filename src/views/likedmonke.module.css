@@ -124,7 +124,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.text14 {
+.text16 {
   color: #f79817;
 }
 .Links-container1 {
@@ -157,7 +157,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.text15 {
+.text17 {
   padding-bottom: var(--dl-space-space-halfunit);
 }
 @media(max-width: 991px) {

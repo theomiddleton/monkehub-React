@@ -49,14 +49,16 @@ const Likedmonke = () => {
         <div className={styles['Hero']}>
           <div className={styles['Content-container']}>
             <h1 className={` ${projectStyles['heading']} ${styles['text02']} `}>
-              <span className={styles['text03']}>Congrats!</span>
+              <span className={styles['text03']}>yep, still does nothing</span>
             </h1>
             <h2
               className={` ${styles['Subheading']} ${projectStyles['subheading']} `}
             >
-              <span>you pressed a button!!!</span>
+              <span>im not a web dev</span>
               <br></br>
-              <span>It does absolutely nothing</span>
+              <span>and anyway what do you</span>
+              <br></br>
+              <span>want it to do</span>
             </h2>
           </div>
           <span className={styles['thats-about-it']}>
@@ -82,7 +84,7 @@ const Likedmonke = () => {
         <div className={styles['Menu']}>
           <h1>
             <span>Monke</span>
-            <span className={styles['text14']}>Hub</span>
+            <span className={styles['text16']}>Hub</span>
           </h1>
           <div className={styles['Links-container1']}>
             <div className={styles['container1']}>
@@ -103,7 +105,7 @@ const Likedmonke = () => {
             </div>
           </div>
           <div className={styles['Follow-container']}>
-            <span className={styles['text15']}>still monke</span>
+            <span className={styles['text17']}>still monke</span>
           </div>
         </div>
       </div>
