@@ -41,7 +41,7 @@ const LandingPage = () => {
                 Contact
               </Link>
             </div>
-            <Link to="/download" className={styles['navlink2']}>
+            <Link to="/monke" className={styles['navlink2']}>
               <SolidButton
                 button="Monke"
                 rootClassName="rootClassName"
@@ -69,7 +69,7 @@ const LandingPage = () => {
             <span className={styles['text05']}>
               <span>yeah i updated this shit</span>
             </span>
-            <Link to="/download" className={styles['navlink3']}>
+            <Link to="/monke" className={styles['navlink3']}>
               <SolidButton
                 button="Explore Monke"
                 className={styles['component01']}
