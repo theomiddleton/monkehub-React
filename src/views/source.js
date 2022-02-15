@@ -9,6 +9,10 @@ const Source = () => {
     <div className={styles['container']}>
       <Helmet>
         <title>Source - monkehub</title>
+        <meta
+          name="description"
+          content="monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke yeah"
+        />
         <meta property="og:title" content="Source - monkehub" />
         <meta
           property="og:description"

@@ -12,6 +12,10 @@ const Aboutus = () => {
     <div className={styles['container']}>
       <Helmet>
         <title>About us - monkehub</title>
+        <meta
+          name="description"
+          content="monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke yeah"
+        />
         <meta property="og:title" content="About us - monkehub" />
         <meta
           property="og:description"
@@ -93,30 +97,12 @@ const Aboutus = () => {
           </h1>
           <div className={styles['Links-container1']}></div>
           <div className={styles['container1']}>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className={styles['link']}
-            >
-              About us
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className={styles['link1']}
-            >
-              FAQ
-            </a>
-            <a
-              href="https://example.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className={styles['link2']}
-            >
+            <Link to="/" className={styles['navlink4']}>
+              Home
+            </Link>
+            <Link to="/contact" className={styles['navlink5']}>
               Contact
-            </a>
+            </Link>
           </div>
           <div className={styles['Follow-container']}>
             <span className={styles['text11']}>monke</span>

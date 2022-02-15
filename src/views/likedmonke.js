@@ -12,6 +12,10 @@ const Likedmonke = () => {
     <div className={styles['container']}>
       <Helmet>
         <title>Liked monke - monkehub</title>
+        <meta
+          name="description"
+          content="monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke yeah"
+        />
         <meta property="og:title" content="Liked monke - monkehub" />
         <meta
           property="og:description"
@@ -95,14 +99,6 @@ const Likedmonke = () => {
               <Link to="/aboutus" className={styles['navlink4']}>
                 About us
               </Link>
-              <a
-                href="https://example.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className={styles['link']}
-              >
-                FAQ
-              </a>
               <Link to="/contact" className={styles['navlink5']}>
                 Contact
               </Link>

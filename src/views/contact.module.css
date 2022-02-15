@@ -176,10 +176,6 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.link1 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .navlink5 {
   text-decoration: none;
 }
@@ -248,9 +244,6 @@
     margin-left: 50px;
   }
   .navlink4 {
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .link1 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
   .navlink5 {

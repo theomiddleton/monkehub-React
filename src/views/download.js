@@ -9,6 +9,10 @@ const Download = () => {
     <div className={styles['container']}>
       <Helmet>
         <title>download - monkehub</title>
+        <meta
+          name="description"
+          content="monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke monke yeah"
+        />
         <meta property="og:title" content="download - monkehub" />
         <meta
           property="og:description"
