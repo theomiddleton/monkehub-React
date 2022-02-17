@@ -7,6 +7,7 @@ import Likedmonke from './views/likedmonke'
 import LandingPage from './views/landing-page'
 import Monke from './views/monke'
 import Contact from './views/contact'
+import Hireme from './views/hireme'
 import Source from './views/source'
 import Aboutus from './views/aboutus'
 
@@ -18,6 +19,7 @@ const App = () => {
         <Route exact component={LandingPage} path="/" />
         <Route exact component={Monke} path="/monke" />
         <Route exact component={Contact} path="/contact" />
+        <Route exact component={Hireme} path="/hireme" />
         <Route exact component={Source} path="/source" />
         <Route exact component={Aboutus} path="/aboutus" />
       </div>
